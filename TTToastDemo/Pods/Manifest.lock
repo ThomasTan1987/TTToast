@@ -1,12 +1,20 @@
 PODS:
   - Masonry (1.0.1)
+  - TTToast (0.1.0):
+    - Masonry (~> 1.0.1)
 
 DEPENDENCIES:
   - Masonry (~> 1.0.1)
+  - TTToast (from `../`)
+
+EXTERNAL SOURCES:
+  TTToast:
+    :path: "../"
 
 SPEC CHECKSUMS:
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  TTToast: cd41015303882453485fe234ca731c0225ce7964
 
-PODFILE CHECKSUM: 7c11b54a6a48369f16e88d8cf74809bfdae4a3b6
+PODFILE CHECKSUM: 22a3057c024439bd3aae4a64375edf41d8092d44
 
 COCOAPODS: 1.0.1

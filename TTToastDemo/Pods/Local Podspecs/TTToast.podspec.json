@@ -1,0 +1,30 @@
+{
+  "name": "TTToast",
+  "version": "0.1.0",
+  "summary": "A custom toast",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ThomasTan1987/TTToast",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ThoamsTan": "thomastan@vipabc.com"
+  },
+  "source": {
+    "git": "https://github.com/ThomasTan1987/TTToast.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TTToast/Classes/**/*",
+  "resources": [
+    "TTToast/Image/*.png"
+  ],
+  "dependencies": {
+    "Masonry": [
+      "~> 1.0.1"
+    ]
+  }
+}

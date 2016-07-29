@@ -14,7 +14,6 @@
 		E61AE2621D4A0EDD00A9954F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61AE2601D4A0EDD00A9954F /* Main.storyboard */; };
 		E61AE2641D4A0EDD00A9954F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61AE2631D4A0EDD00A9954F /* Assets.xcassets */; };
 		E61AE2671D4A0EDD00A9954F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61AE2651D4A0EDD00A9954F /* LaunchScreen.storyboard */; };
-		E62F9A7F1D4B33270074E992 /* TTToast.m in Sources */ = {isa = PBXBuildFile; fileRef = E62F9A7E1D4B33270074E992 /* TTToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +30,6 @@
 		E61AE2631D4A0EDD00A9954F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E61AE2661D4A0EDD00A9954F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E61AE2681D4A0EDD00A9954F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E62F9A7D1D4B33270074E992 /* TTToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTToast.h; sourceTree = "<group>"; };
-		E62F9A7E1D4B33270074E992 /* TTToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +74,6 @@
 		E61AE2561D4A0EDD00A9954F /* TTToastDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E62F9A7C1D4B33270074E992 /* TTToast */,
 				E61AE25A1D4A0EDD00A9954F /* AppDelegate.h */,
 				E61AE25B1D4A0EDD00A9954F /* AppDelegate.m */,
 				E61AE25D1D4A0EDD00A9954F /* ViewController.h */,
@@ -97,15 +93,6 @@
 				E61AE2581D4A0EDD00A9954F /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E62F9A7C1D4B33270074E992 /* TTToast */ = {
-			isa = PBXGroup;
-			children = (
-				E62F9A7D1D4B33270074E992 /* TTToast.h */,
-				E62F9A7E1D4B33270074E992 /* TTToast.m */,
-			);
-			path = TTToast;
 			sourceTree = "<group>";
 		};
 		F63CDEF175024CEDD0AE0D30 /* Frameworks */ = {
@@ -240,7 +227,6 @@
 				E61AE25F1D4A0EDD00A9954F /* ViewController.m in Sources */,
 				E61AE25C1D4A0EDD00A9954F /* AppDelegate.m in Sources */,
 				E61AE2591D4A0EDD00A9954F /* main.m in Sources */,
-				E62F9A7F1D4B33270074E992 /* TTToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

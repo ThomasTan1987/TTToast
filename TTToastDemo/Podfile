@@ -2,6 +2,7 @@
  platform :ios, ‘8.0’
 
 target 'TTToastDemo' do
+  pod 'TTToast', :path => '../'
   pod 'Masonry', '~> 1.0.1'
 
 end
